@@ -6,7 +6,7 @@ QMFR is a continuous function-based quaternion matrix factorization method for f
 * If you want to run on a GPU, you will need to install [CUDA](https://developer.nvidia.com/cuda-downloads) and [cuDNN](https://developer.nvidia.com/cudnn), please refer to their websites for corresponding versions.
 
 # 🚀 Running QMFR
-Simply open main.py and run it to achieve the desired color image recovery performance.
+Simply open QMFR_ADMM.py and run it to achieve the desired color image recovery performance.
 
 # 📖 Article
 For more details about the methodology and experimental results, please refer to the paper:
