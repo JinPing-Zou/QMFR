@@ -1,25 +1,14 @@
 # 🌱 QMFR
-STAGAN uses generative adversarial networks to perform small molecule map generation tasks, which are implemented in the Keras framework. It allows the user to run the model to generate a reference set of drug-like molecules.
-
-# ⚙ Requirement
-```
-Refer to requirement.txt
-```
+QMFR is a continuous function-based quaternion matrix factorization method for fast and high-quality color image recovery.
 
 # 🔧 Installation
 * Install [python 3.7](https://www.python.org/downloads/) in Linux and Windows.
 * If you want to run on a GPU, you will need to install [CUDA](https://developer.nvidia.com/cuda-downloads) and [cuDNN](https://developer.nvidia.com/cudnn), please refer to their websites for corresponding versions.
-* Add your installation path and run the following command to install the DivGAN libraries in one step
-```
-pip install -r requirement.txt
-```
 
 # 🚀 Running QMFR
-You need to open main.py, run load_weights to read the pre-trained weights and get the generated molecules.
-Or provide training set molecules into graph coding for model training.
+Simply open main.py and run it to achieve the desired color image recovery performance.
 
 # 📖 Article
 For more details about the methodology and experimental results, please refer to the paper:
 
-**STAGAN: An approach for improve the stability of molecular graph generation based on generative adversarial networks**  
-**DOI:** [10.1016/j.compbiomed.2023.107691](https://doi.org/10.1016/j.compbiomed.2023.107691)
+**Quaternion matrix function representation for color image recovery**  
